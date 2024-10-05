@@ -39,11 +39,11 @@ const chair = new THREE.Mesh(chairGeometry, chairMaterial);
 chair.position.set(3, 0.2, -2.5); 
 scene.add(chair);
 
-const mattressGeometry = new THREE.BoxGeometry(3.5, 0.5, 2);
-const mattressMaterial = new THREE.MeshBasicMaterial({ color: 0x8b4513 });
-const mattress = new THREE.Mesh(mattressGeometry, mattressMaterial);
-mattress.position.set(0, 0.25, -1);
-scene.add(mattress);
+const carpetGeometry = new THREE.BoxGeometry(3, 0.75, 2);
+const carpetMaterial = new THREE.MeshBasicMaterial({ color: 0xff0000 });
+const carpet = new THREE.Mesh(carpetGeometry, carpetMaterial);
+carpet.position.set(0, 1, 4);
+scene.add(carpet);
 
 const headboardGeometry = new THREE.BoxGeometry(2, 2.5, 0.2);
 const headboardMaterial = new THREE.MeshBasicMaterial({ color: 0x8b4513 });
